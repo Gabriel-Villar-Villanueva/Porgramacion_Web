@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body style="background-color:lightskyblue ;">
+    <h2 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Formulario general</h2>
+
+    <form>
+        <fieldset style="border-color: black;border-style: dashed;">
+            <legend style="font-family: cursive;"><b> Datos Personales</b></legend>
+        <label for="nombre" style="font-family: cursive;">Ingrese su nombre: </label>
+        <input type="text" id="nombre" style="font-family: cursive;"><br><br>
+
+        <label for="nombre" style="font-family: cursive;">Masculino</label>
+        <input type="radio" name="genero" id="hombre">
+
+        <label for="mujer" style="font-family: cursive;">Femenino</label>
+        <input type="radio" name="genero" id="mujer"><br><br>
+
+        <label for="telefono" style="font-family: cursive;">Numero de telefono: </label>
+        <input type="number" name="edad" id="telefono"><br><br>
+
+        <label for="edad" style="font-family: cursive;">Ingrese su fecha de nacimiento: </label>
+        <input type="date" name="fecha" id="edad"><br><br>
+
+        <label for="profesion" style="font-family: cursive;">Profesión: </label>
+        <input type="text" id="profesion" style="font-family: cursive;"><br><br>
+
+        <label for="email" style="font-family: cursive;">Ingrese su email:    </label>
+        <input type="email" name="Correo" id="email"><br><br>
+        
+        <label for="direccion" style="font-family: cursive;">Ingrese su domicilio: </label>
+        <input type="text" name="direccion" id="direccion"><br><br>
+
+        <label for="razon" style="font-family: cursive;">Razon de envio: </label><br>
+        <textarea name="Razon" id="razon" cols="30" rows="10"></textarea><br><br>
+
+        <label for="hora-envio" style="font-family: cursive;">Indique hora de envio del formulario: </label>
+        <input type="time" name="hora de envio" id="hora-envio"><br><br>
+
+        <label for="so" style="font-family: cursive;">Escoja su sistema operativo</label> <br/>
+        <select id="so" name="so">
+            <option value="" selected="selected" style="font-family: cursive;">- selecciona -</option>
+            <option value="windows" style="font-family: cursive;">Windows</option>
+            <option value="mac" style="font-family: cursive;">Mac</option>
+            <option value="linux" style="font-family: cursive;">Linux</option>
+            <option value="otro" style="font-family: cursive;">Otro</option>
+        </select>
+
+         </fieldset><br><br>
+
+        <input type="submit" value="Enviar datos">
+        <input type="reset" value="Borrar datos">
+
+
+    </form><br><br>
+
+    <a href="index.html">Volver al Inicio</a>
+</body>
+</html>
